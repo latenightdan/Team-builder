@@ -1,13 +1,30 @@
+.body{
+  background-color: olive;
+}
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
+   background-color: white;
+width: 30%;
+margin-top: 2%;
+margin-bottom: 3%;
     text-align: center;
+    
   }
-  
+  #container{
+    display: flex;
+    background-color: olive;
+    margin:0%;
+  flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+    
+  }
   .title {
     color: grey;
     font-size: 18px;
+    margin-top: 1%;
+   
+    padding-bottom:5%
   }
   
   button {
@@ -15,6 +32,7 @@
     outline: 0;
     display: inline-block;
     padding: 8px;
+    
     color: white;
     background-color: #000;
     text-align: center;
@@ -27,8 +45,35 @@
     text-decoration: none;
     font-size: 22px;
     color: black;
+    padding-top: 10%;
+   
+    padding-right: 2%;
   }
   
   button:hover, a:hover {
     opacity: 0.7;
+    
+  }
+  p{
+    margin-bottom: 0;
+  }
+  @media only screen and (max-width: 800px) {
+    .card{
+      width: 40%;
+      margin-bottom: 10%;
+    }
+    #container {
+       flex-wrap: wrap;
+       margin-bottom: 10%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .card{
+      width: 80%;
+      margin-bottom: 10%;
+    }
+    #container {
+       flex-wrap: wrap;
+       margin-bottom: 10%;
+    }
   }
