@@ -1,5 +1,7 @@
-.body{
-  background-color: olive;
+
+body{
+  margin: 0%;
+  padding-bottom: 100%;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -12,10 +14,11 @@ margin-bottom: 3%;
   }
   #container{
     display: flex;
-    background-color: olive;
+    background-color:rgb(198, 174, 42);
     margin:0%;
   flex-wrap: wrap;
     justify-content:space-evenly;
+    padding-bottom: 100%;
     
     
   }
